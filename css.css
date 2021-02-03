@@ -1,3 +1,15 @@
+@media screen and (max-width: 1200px) {
+    body {
+      /* webkit browsers */
+      zoom: 170%;
+      /* moz browsers , since there is no support to "zoom" */
+      -moz-transform: scale(1.2);
+      -moz-transform-origin: 0 0
+    }
+  }
+
+
+
 .center{
     display: block;
     margin-left: auto;
