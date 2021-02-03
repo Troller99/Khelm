@@ -1,9 +1,9 @@
 @media screen and (max-width: 1200px) {
     body {
       /* webkit browsers */
-      zoom: 150%;
+      zoom: 160%;
       /* moz browsers , since there is no support to "zoom" */
-      -moz-transform: scale(1.5);
+      -moz-transform: scale(1.6);
       -moz-transform-origin: 0 0
     }
   }
@@ -110,7 +110,7 @@ button:hover {
 
 #about{
     margin-bottom: 50px;
-    max-width: 30%;
+    width: 30%;
     background-color: #63330c ;
     padding: 5%;
     margin-left: auto;
