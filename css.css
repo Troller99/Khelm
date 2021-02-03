@@ -1,9 +1,9 @@
 @media screen and (max-width: 1200px) {
     body {
       /* webkit browsers */
-      zoom: 160%;
+      zoom: 200%;
       /* moz browsers , since there is no support to "zoom" */
-      -moz-transform: scale(1.6);
+      -moz-transform: scale(200);
       -moz-transform-origin: 0 0
     }
   }
@@ -83,7 +83,7 @@ body{
     border: 1px solid black;
     color: black;
     padding: 15px 15px;
-    width: 30%;
+    width: 35%;
     text-align: center;
     display: inline-block;
     font-size: 110%;
@@ -110,7 +110,7 @@ button:hover {
 
 #about{
     margin-bottom: 50px;
-    width: 30%;
+    width: 35%;
     background-color: #63330c ;
     padding: 5%;
     margin-left: auto;
@@ -124,7 +124,7 @@ button:hover {
 #contact{
     text-align: center;
     margin-bottom: 50px;
-    width: 30%;
+    width: 35%;
     background-color: #63330c  ;
     padding: 5%;
     margin-left: auto;
