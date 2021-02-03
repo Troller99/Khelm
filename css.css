@@ -2,7 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 11%;
+    max-width: 10%;
+    height: auto;
     padding-top: 2%;
 }
 
@@ -16,8 +17,8 @@ body{
 }
 
 .nav {
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     margin-bottom: 4%;
     margin-top: 4%;
     text-align:center;
@@ -25,14 +26,14 @@ body{
 
 .nav li {
     display:inline;
-    margin: 40px;
-    padding: 9px;
-    font-size: 120%;
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 1.2vw;
     color: aliceblue;
 
     border-radius: 25px;
 
-    border: 2px solid  #141414;
+    border: 0.2vw solid  #141414;
     transition: border-color color 250ms linear, color 250ms linear;
       -moz-transition: border-color 250ms linear, color 250ms linear;    /* FF3.7+ */
       -o-transition: border-color 250ms linear, color 250ms linear;      /* Opera 10.5 */
@@ -54,7 +55,7 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 300%;
+    font-size: 4vw;
     color: #cf6813;
     font-weight: 900;
 }
@@ -97,7 +98,7 @@ button:hover {
 
 #about{
     margin-bottom: 50px;
-    width: 20%;
+    max-width: 20%;
     background-color: #63330c ;
     padding: 5%;
     margin-left: auto;
