@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px) {
     body {
       /* webkit browsers */
-      zoom: 200%;
+      zoom: 210%;
       /* moz browsers , since there is no support to "zoom" */
       -moz-transform: scale(200);
       -moz-transform-origin: 0 0
@@ -40,7 +40,7 @@ body{
     display:inline;
     margin: 1vw;
     padding: 1vw;
-    font-size: 1.2vw;
+    font-size: 100%;
     color: aliceblue;
 
     border-radius: 25px;
@@ -82,11 +82,11 @@ body{
     background-color: aliceblue;
     border: 1px solid black;
     color: black;
-    padding: 15px 15px;
+    padding: 15px 10px;
     width: 35%;
     text-align: center;
     display: inline-block;
-    font-size: 110%;
+    font-size: 100%;
     cursor: pointer;
 
     transition: background-color 250ms linear;
@@ -115,7 +115,7 @@ button:hover {
     padding: 5%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 110%;
+    font-size: 95%;
     color: aliceblue;
     display: none;
 }
@@ -129,7 +129,7 @@ button:hover {
     padding: 5%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 110%;
+    font-size: 95%;
     color: aliceblue;
     display: none;
 }
@@ -138,6 +138,6 @@ button:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     margin-top: 8%;
 }
